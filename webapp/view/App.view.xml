@@ -1,0 +1,14 @@
+<mvc:View
+	controllerName="opensap.W2.W2.controller.App"
+	displayBlock="true"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc">
+
+	<Shell>
+	<App
+		id="app"
+		busy="{appView>/busy}"
+		busyIndicatorDelay="{appView>/delay}"/>
+	</Shell>
+<!-- appView model can be found in App.controller -->
+</mvc:View>
